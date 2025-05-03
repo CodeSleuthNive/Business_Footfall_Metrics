@@ -25,7 +25,7 @@ def select_points(event, x, y, flags, param):
             cv2.destroyWindow("Select ROI")
 
 # Load first frame of video
-video_path = r"C:\Users\nivet\Documents\Video Analytics\Muzik247_Video\Royapetai-2.mp4"
+video_path = r"sample.mp4"
 cap = cv2.VideoCapture(video_path)
 ret, frame = cap.read()
 
