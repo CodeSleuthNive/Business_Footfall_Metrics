@@ -15,7 +15,7 @@ def is_inside_polygon(x, y, polygon):
     return cv2.pointPolygonTest(polygon, (x, y), False) >= 0
 
 # Load video
-video_path = r"C:\Users\nivet\Documents\Video Analytics\Muzik247_Video\Royapetai-2.mp4"
+video_path = "sample.mp4"
 cap = cv2.VideoCapture(video_path)
 
 # Get video info
